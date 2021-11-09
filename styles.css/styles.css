@@ -30,10 +30,13 @@ body {
   font-size: 26px;
   line-height: 1.17;
   text-decoration: none;
-  color: #000000;
+  color: var(--hover-text-color);
 }
 .logo-color {
-  color: var(--hover-text-color);
+  color: var(--title-text-color);
+}
+.logo-color-footer {
+  color: var(--hero-text-color);
 }
 .site-nav .link,
 .contacs .link {
@@ -78,8 +81,9 @@ body {
 /* main */
 .benefits-title {
   color: var(--title-text-color);
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.14;
 }
 
 .work-title,
@@ -93,13 +97,13 @@ body {
 
 .team {
   background-color: var(--secondary-background-color);
-  font-size: 16px;
-  line-height: 1.17;
   text-align: center;
 }
 .team-employee {
   color: var(--title-text-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
 }
 
 /* footer */
@@ -109,15 +113,20 @@ body {
 .footer-address {
   color: var(--hero-text-color);
 }
+.footer-logo {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
 
 .footer-contacts {
-  color: rgba(255, 255, 255, 0, 6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* portfolio */
 .portfolio-buttons {
   background-color: var(--secondary-background-color);
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
